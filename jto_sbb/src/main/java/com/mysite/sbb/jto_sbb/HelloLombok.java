@@ -25,10 +25,9 @@ public class HelloLombok {
 
     public static void main (String[] args){
         HelloLombok helloLombok=new HelloLombok("헬로",5);
-//        helloLombok.setHello("헬로");
-//        helloLombok.setLombok(5);
-
+//        생성자 이용 객체 형성
         System.out.println(helloLombok.getHello());
         System.out.println(helloLombok.getLombok());
+        //return 값 필요
     }
 }
