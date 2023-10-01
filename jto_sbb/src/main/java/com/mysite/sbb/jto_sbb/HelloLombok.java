@@ -1,5 +1,6 @@
 package com.mysite.sbb.jto_sbb;
 
+
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -17,11 +18,11 @@ public class HelloLombok {
     //final -> 한 번 설정한 값 변경 불가
     //=>Setter는 의미 x
 
-    /*직접 생성자 작성의 경우
-    public HelloLombok(String hello, int lombok){
-        this.hello=hello;
-        this.lombok=lombok;
-    */
+//    직접 생성자 작성의 경우
+//    public HelloLombok(String hello, int lombok){
+//        this.hello=hello;
+//        this.lombok=lombok;
+//
 
     public static void main (String[] args){
         HelloLombok helloLombok=new HelloLombok("헬로",5);
@@ -31,3 +32,4 @@ public class HelloLombok {
         //return 값 필요
     }
 }
+
